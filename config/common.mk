@@ -70,8 +70,7 @@ PRODUCT_COPY_FILES += \
  	vendor/cm/gapps/$(TARGET_ARCH)/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
         vendor/cm/gapps/$(TARGET_ARCH)/lib/libgoogle_hotword_jni.so:system/lib/libgoogle_hotword_jni.so \
 	vendor/cm/gapps/$(TARGET_ARCH)/lib/libgoogle_recognizer_jni_l.so:system/lib/libgoogle_recognizer_jni_l.so \
-	vendor/cm/gapps/$(TARGET_ARCH)/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so	\
-	
+	vendor/cm/gapps/$(TARGET_ARCH)/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so
 endif
 
 ifeq ($(TARGET_ARCH),x86)
