@@ -50,7 +50,8 @@ BOARD_SEPOLICY_DIRS += \
 
 BOARD_SEPOLICY_UNION += \
     su.te \
-    sysinit.te
+    sysinit.te \
+    file_contexts
 
 
 # Google Apps
