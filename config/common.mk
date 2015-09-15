@@ -45,6 +45,14 @@ PRODUCT_PACKAGES += \
     sqlite \
     busybox
 
+BOARD_SEPOLICY_DIRS += \
+    vendor/cm/sepolicy
+
+BOARD_SEPOLICY_UNION += \
+    su.te \
+    sysinit.te
+
+
 # Google Apps
 
 ifeq ($(TARGET_ARCH),arm)
